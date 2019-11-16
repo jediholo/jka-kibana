@@ -4,14 +4,4 @@ server.basePath: "/kibana"
 server.rewriteBasePath: true
 elasticsearch.hosts: [ "http://elasticsearch:9200" ]
 kibana.defaultAppId: "dashboard/JKA"
-console.enabled: false
-timelion.enabled: false
-xpack.apm.enabled: false
-xpack.canvas.enabled: false
-xpack.graph.enabled: false
-xpack.grokdebugger.enabled: false
 xpack.infra.sources.default.logAlias: "logstash-*"
-xpack.ml.enabled: false
-xpack.monitoring.enabled: false
-xpack.reporting.enabled: false
-xpack.searchprofiler.enabled: false
